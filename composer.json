@@ -1,0 +1,23 @@
+{
+    "name": "easteregg/poc-polyfill-phpstan",
+    "autoload": {
+        "psr-4": {
+            "Easteregg\\PocPolyfillPhpstan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "easteregg",
+            "email": "easteregg@verfriemelt.org"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.8"
+    },
+    "require": {
+        "symfony/polyfill": "^1.26"
+    },
+    "config": {
+        "vendor-dir": "lib/vendor"
+    }
+}
